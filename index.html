@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Flourish and Blotts</title>
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script type="text/javascript" src="./js/jquery.min.js"></script>
+  <script type="text/javascript" src="./js/bootstrap.js"></script>
+  <style>
+    .container {
+      margin-top: 50px;
+    }
+
+    p {
+      margin-left: 8rem;
+      margin-right: 8rem;
+
+      .display-4 {
+        margin-top: 15rem;
+
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Implement the Florish and Blotts exercises here -->
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <a class="navbar-brand" href="#">Flourish and Blotts</a>
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Our Collection</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Hogwarts Special</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Book a Book Signing</a>
+        </li>
+      </ul>
+      <div class="ml-auto">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Already verified? Login Here</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+
+
+  </div>
+
+  <div class="container">
+    <div class="row" style="color:black; ">
+      <div class="col-lg-12 jumbotron">
+        <h1 class="display-1 text-center"> Flourish and Blotts</h1>
+        <p> At <span class="text-uppercase">Flourish and Blotts</span> we don't just sell books, we sell an experience.
+          In the name of Merlin's beard there is
+          <!-- <br> -->
+          no book that you cannot find here. Witches and wizards, this is your one stop destination for every book
+          there.
+          <!-- <br> -->
+          Even <span class="text-warning">'The Invisible Book of Invisibility'</span>.
+          Visit us at <span class="text-success">North Side, Diagon Alley</span> today!
+        </p>
+        <br>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-8">
+        <!-- <h3>first column</h3> -->
+        <h4 class="text-capatalize display-5">Popular Trending Books.</h4>
+        <div class="table-responsive">
+          <table class="table table-bordered table-hover table-striped table-sm">
+            <thead>
+              <tr>
+                <th>Book Cover</th>
+                <th>Book Title</th>
+                <th>Author</th>
+                <th>Cost</th>
+              </tr>
+            </thead>
+            <tbody class="text-center">
+              <tr>
+                <td><img src="./images/book1.jpg" class=" rounded-circle img-thumbnail rounded img-fluid" /></td>
+                <td>The life and Lies of Albus Dumbledore </td>
+                <td>Rita Sketter</td>
+                <td>10 Gallons</td>
+              </tr>
+              <tr>
+                <td><img src="./images/book2.jpg" class=" rounded-circle img-thumbnail  img-fluid" /></td>
+                <td>Holidays with hack</td>
+                <td>Glodory Lohkart</td>
+                <td>5 Gallons</td>
+              </tr>
+              <tr>
+                <td><img src="./images/book1.jpg" class="  img-thumbnail rounded img-fluid" /></td>
+                <td>Monster Book Of Monster</td>
+                <td>Edwrta Lewis</td>
+                <td>4 Gallons</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+      <div class="col-lg-4">
+        <!-- <h3>second column</h3> -->
+        <div class="card-deck" style="color:black; ">
+          <div class="card bg-light">
+            <div class="card-header">verify that your Magical</div>
+            <div class="card-body">
+              <form>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Confirm Password</label>
+                    <input type="password" class="form-control">
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" name="course"> Are you a muggle?
+                    </label>
+                </div>
+                <div class="card-footer">          	
+                    <button type="submit" class="form-check btn btn-primary">Sign In</button>
+                </div>
+            </form>
+            
+        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>
